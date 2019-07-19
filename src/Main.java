@@ -1,8 +1,6 @@
 public class Main {
 
 //      **** FUNDAMENTALS ****
-
-//    private static Scanner scan = new Scanner(System.in);
 //
 //    public static int[] getIntegers(int number) {
 //        System.out.println("Enter " + number + " integer values.\r");
@@ -25,12 +23,23 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
-
 //        **** ARRAYS ****
 
-        int[] array = SortArray.getIntegers();
-        array = SortArray.sortArray(array);
-        SortArray.printSortedArray(array);
+//        GROCERY LIST
+        ArrayListNotes groceryList = new ArrayListNotes();
+        groceryList.printGroceryList();
+        groceryList.addGroceryItem("Milk");
+        groceryList.addGroceryItem("Bread");
+        groceryList.addGroceryItem("Cheese");
+        groceryList.printGroceryList();
+        groceryList.modifyGroceryItem(1,"Butter");
+        groceryList.removeGroceryItem(2);
+        groceryList.printGroceryList();
+
+//        SORT
+//        int[] array = SortArray.getIntegers();
+//        array = SortArray.sortArray(array);
+//        SortArray.printSortedArray(array);
 
 //        USING Integer[] instead of int[]
 //        Integer[] array = SortArray.getIntegers();
