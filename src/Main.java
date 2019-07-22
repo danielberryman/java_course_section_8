@@ -1,5 +1,32 @@
 public class Main {
 
+    public static void main(String[] args) {
+
+//        AUTOBOXING
+//        Integer myInteger1 = new Integer(10);
+//        Integer myInteger2 = 10;
+//
+//        System.out.println(myInteger1 + " is the primitive data type equivalent of an int. So is " + myInteger2);
+//
+//        Double myDouble1 = new Double(20);
+//        Double myDouble2 = 20.00;
+//
+//        System.out.println(myDouble1 + " is the primitive data type equivalent of a double. So is " + myDouble2);
+//
+//        Boolean myBool1 = new Boolean(true);
+//        Boolean myBool2 = true;
+//
+//        System.out.println(myBool1 + " is the primitive data type equivalent of a boolean. So is " + myBool2);
+//
+//        Float myFlt1 = new Float(1.1);
+//        Float myFlt2 = (float) 1.1;
+//
+//        System.out.println(myFlt1 + " is the primitive data type equivalent of a float. So is " + myFlt2);
+//
+//        Short myShort1 = (short) 12;
+//        Long myLong1 = (long) 2003;
+    }
+
 //      **** FUNDAMENTALS ****
 //
 //    public static int[] getIntegers(int number) {
@@ -22,19 +49,20 @@ public class Main {
 //        return (double) sum / (double) arr.length;
 //    }
 
-    public static void main(String[] args) {
-//        **** ARRAYS ****
-
-//        GROCERY LIST
-        ArrayListNotes groceryList = new ArrayListNotes();
-        groceryList.printGroceryList();
-        groceryList.addGroceryItem("Milk");
-        groceryList.addGroceryItem("Bread");
-        groceryList.addGroceryItem("Cheese");
-        groceryList.printGroceryList();
-        groceryList.modifyGroceryItem(1,"Butter");
-        groceryList.removeGroceryItem(2);
-        groceryList.printGroceryList();
+//    public static void main(String[] args) {
+////        **** ARRAYS ****
+//
+////        GROCERY LIST
+//        ArrayListNotes groceryList = new ArrayListNotes();
+//        groceryList.printGroceryList();
+//        groceryList.addGroceryItem("Milk");
+//        groceryList.addGroceryItem("Bread");
+//        groceryList.addGroceryItem("Cheese");
+//        groceryList.printGroceryList();
+//        groceryList.modifyGroceryItem(1,"Butter");
+//        groceryList.removeGroceryItem(2);
+//        groceryList.printGroceryList();
+//        groceryList.toArray();
 
 //        SORT
 //        int[] array = SortArray.getIntegers();
@@ -76,5 +104,5 @@ public class Main {
 //        for(int i=0; i<array.length; i++){
 //            System.out.println("Element " + i + ", value is " + array[i]);
 //        }
-    }
+//    }
 }
